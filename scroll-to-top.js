@@ -96,7 +96,7 @@
      */
     function init() {
         // Buscar el botón existente
-        scrollToTopButton = document.querySelector('.scroll-to-top, [class*="arrow"], [href="#"][class*="fixed"]');
+        scrollToTopButton = document.querySelector('.scroll-to-top');
         
         if (!scrollToTopButton) {
             console.warn('Scroll to top button not found. Make sure it has class "scroll-to-top" or update the selector.');
