@@ -1,0 +1,30 @@
+/* Smooth Scroll CSS - Integrable en cualquier proyecto */
+
+/* Desactivar el scroll-behavior nativo para tener control total */
+html {
+    scroll-behavior: auto !important;
+}
+
+/* Opcional: Mejoras visuales durante el scroll */
+body {
+    overflow-x: hidden;
+}
+
+/* Opcional: Animaciones de entrada para sections */
+header, section {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+/* Clase para secciones que aún no han aparecido */
+section.scroll-hidden {
+    opacity: 0;
+    transform: translateY(30px);
+}
+
+/* Clase para secciones visibles */
+section.scroll-visible {
+    opacity: 1;
+    transform: translateY(0);
+}

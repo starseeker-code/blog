@@ -6,6 +6,7 @@
     <title>Personal Blog - Joaquin</title>
     <link rel="stylesheet" type="text/css" href="base_style.css" />
     <link rel="stylesheet" type="text/css" href="typewriter.css" />
+    <link rel="stylesheet" href="smooth-scroll.css">
     <meta name="theme-color" content="#ffffff" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
@@ -181,10 +182,8 @@
               </div>
             </div>
           </div>
-          <div
-            class="relative bottom-10 left-1/2 transform -translate-x-1/2 z-20 animate-bounce"
-          >
-            <span class="material-symbols-outlined text-3xl">expand_more</span>
+          <div class="relative bottom-10 left-1/2 transform -translate-x-1/2 z-8 animate-bounce">
+            <span id="arrow-hero" class="material-symbols-outlined text-3xl"></span>
           </div>
         </header>
         <section
@@ -637,15 +636,15 @@
                 <div class="flex space-x-3">
                   <a
                     href="#"
-                    class="p-2 bg-primary-600 hover:bg-primary-500 rounded-full transition-colors duration-300"
+                    class="p-round bg-primary-600 hover:bg-primary-500 rounded-full transition-colors duration-300"
                   >
                     <span class="material-symbols-outlined">visibility</span>
                   </a>
                   <a
                     href="#"
-                    class="p-2 bg-gray-700 hover:bg-gray-600 rounded-full transition-colors duration-300"
+                    class="p-round bg-gray-700 hover:bg-gray-600 rounded-full transition-colors duration-300"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-github" style="padding-left: 0.25em;"></i>
                   </a>
                 </div>
               </div>
@@ -686,15 +685,15 @@
                 <div class="flex space-x-3">
                   <a
                     href="#"
-                    class="p-2 bg-primary-600 hover:bg-primary-500 rounded-full transition-colors duration-300"
+                    class="p-round bg-primary-600 hover:bg-primary-500 rounded-full transition-colors duration-300"
                   >
                     <span class="material-symbols-outlined">visibility</span>
                   </a>
                   <a
                     href="#"
-                    class="p-2 bg-gray-700 hover:bg-gray-600 rounded-full transition-colors duration-300"
+                    class="p-round bg-gray-700 hover:bg-gray-600 rounded-full transition-colors duration-300"
                   >
-                    <i class="fa-brands fa-github"></i>
+                    <i class="fa-brands fa-github" style="padding-left: 0.25em;"></i>
                   </a>
                 </div>
               </div>
@@ -915,16 +914,15 @@
             </div>
           </div>
         </footer>
-        <div
-          href="#"
-          class="fixed bottom-8 right-8 w-12 h-12 bg-primary-600 hover:bg-primary-500 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 transform hover:scale-110 z-50"
-        >
-          <a href="#">
+          <a href="#"
+          class="scroll-to-top fixed bottom-8 right-8 w-12 h-12 bg-primary-600 hover:bg-primary-500 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 transform hover:scale-110 z-50"
+          >
             <span class="material-symbols-outlined">arrow_upward</span>
           </a>
-        </div>
       </div>
     </div>
     <script src="typewriter.js"></script>
+    <script src="smooth-scroll.js"></script>
+    <script src="scroll-to-top.js"></script>
   </body>
 </html>

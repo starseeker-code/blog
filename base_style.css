@@ -316,7 +316,7 @@ max-width: 100%;
 display: none;
 }
 #BLOG .fixed {
-position: fixed;
+position: fixed !important;
 }
 #BLOG .absolute {
 position: absolute;
@@ -736,6 +736,13 @@ object-fit: cover;
 #BLOG .p-2 {
 padding: 8px;
 }
+
+#BLOG .p-round {
+padding: 8px;
+width: 2.5em;
+height: 2.5em;
+}
+
 #BLOG .p-4 {
 padding: 16px;
 }
@@ -1202,4 +1209,16 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 
 #first-section-start{
     margin-top: 60px;
+}
+
+#arrow-hero{
+    margin-top: 4em;
+}
+
+.scroll-to-top {
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+}
+
+.scroll-to-top:hover {
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
