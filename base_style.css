@@ -1077,6 +1077,10 @@ transform: translate(var(--tw-translate-x), var(--tw-translate-y))
 color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
+#BLOG .justified-p{
+    text-align: justify;
+}
+
 @media screen and (max-height: 600px){
 #BLOG .h-\[70vh\] {
     height: 140vh;
@@ -1234,8 +1238,4 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 
 .scroll-to-top:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
-}
-
-p{
-    text-align: justify;
 }
