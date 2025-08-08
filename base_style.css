@@ -1093,6 +1093,9 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
     font-weight: 500;
     font-size: 1.5rem;
 }
+#optional{
+    display: none;
+}
 }
 
 @media screen and (max-height: 350px){
@@ -1104,6 +1107,9 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
         Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
     font-weight: 500;
     font-size: 1rem;
+}
+#optional{
+    display: none;
 }
 }
 
@@ -1119,6 +1125,9 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
     height: 3rem;
     margin-left: 2rem;
     border-radius: 50%;
+}
+#optional{
+    display: none;
 }
 }
 
@@ -1216,7 +1225,7 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 #arrow-hero{
-    margin-top: 3em;
+    margin-top: 0.8em;
 }
 
 .scroll-to-top {
