@@ -818,6 +818,10 @@ line-height: 36px;
 font-size: 36px;
 line-height: 41.4px;
 }
+#BLOG .text-xxl {
+font-size: 60px;
+line-height: 72px;
+}
 #BLOG .text-lg {
 font-size: 18px;
 line-height: 27px;
@@ -1212,7 +1216,7 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 #arrow-hero{
-    margin-top: 4em;
+    margin-top: 3em;
 }
 
 .scroll-to-top {
@@ -1221,4 +1225,8 @@ color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 
 .scroll-to-top:hover {
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+p{
+    text-align: justify;
 }
